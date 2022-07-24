@@ -1,0 +1,92 @@
+.superContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    border-top: 3px solid #84A9D4;
+}
+
+.superContainer h1 {
+    text-align: center;
+    color: white;
+   
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* background: linear-gradient(90deg, rgba(194,148,193,1) 0%, rgba(126,47,139,1) 100%); */
+}
+
+.container .containerDiv {
+    width: 20%;
+    height: 90%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 8px 32px 0 rgba( 126, 47, 139, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 194, 149, 193, 0.18 );
+    background-color: #4E8BC6;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 10px;
+}
+
+.containerDiv:last-child{
+    margin-right: 20px;
+    
+
+
+}
+
+.containerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerDiv h1 {
+    height: 30%;
+    text-align: center;
+ 
+}
+
+.containerPIMG{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+.containerDiv p{
+    width: 200px;
+    text-align: center;
+    height: 25%;
+    
+}
+
+.containerDiv img {
+    width: 100%;
+    height: 50%;
+}
+
+.buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    width: 85%;
+    height: 13%;
+    border: 1px solid black;
+    border-radius: 25px 25px 25px 25px;
+}

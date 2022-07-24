@@ -42,6 +42,7 @@
     cursor: pointer;
     padding: 12px;
     box-shadow: 0 8px 32px 0 rgba( 126, 47, 139, 0.60 );
+    font-size: 17px;
   
 }
 
@@ -125,13 +126,14 @@
     margin-right: 30px;
     padding: 10px;
     background-color: #4E8CC7;
-    border-radius: 20px 0px 20px 0px;
+    border-radius: 10px 10px 10px 10px;
     box-shadow: 0 8px 32px 0 rgba( 126, 47, 139, 0.60 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border: 1   px solid rgba( 138, 196, 232, 0.18  );
     cursor: pointer;
     color: white;
+    font-size: 17px;
     
 }
 
@@ -238,7 +240,7 @@
     background: rgb(254,91,81);
     background: linear-gradient(90deg, rgba(127,48,139,1) 0%, rgba(194,149,193,1) 100%);
     border-radius: 20px 20px 0px 0px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 

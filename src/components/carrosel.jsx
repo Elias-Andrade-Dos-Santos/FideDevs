@@ -24,7 +24,7 @@ const carrosel = () => {
         </div>
         <div className={styles.barTop}></div>
         <div className={styles.superContainer}>
-            <h1>TECNOLOGIAS</h1>
+            
             <Slider {...settings} className={styles.container}>
             <div>
                 <img src={Nodejs} alt="" />
