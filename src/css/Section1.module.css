@@ -88,7 +88,12 @@
     margin-left: 15px;
     width: 85%;
     height: 13%;
-    border: 1px solid black;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 35px 35px 35px 35px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 126, 47, 139, 0.70 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: linear-gradient(90deg, rgba(194,148,193,1) 0%, rgba(126,47,139,1) 100%);
     cursor: pointer;
 }
