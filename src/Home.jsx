@@ -8,9 +8,6 @@ import { BsFillChatDotsFill } from "react-icons/bs";
 const App = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <a href=""><BsFillChatDotsFill className={styles.icon}/></a>
-      </div>
       <nav className={styles.containerNav}>
         <div className={styles.containerLogoINAED}>
           <img className={styles.img} src={LOGOFive} alt="" />

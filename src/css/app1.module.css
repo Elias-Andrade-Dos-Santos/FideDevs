@@ -1,0 +1,27 @@
+.cuperContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar{
+    width: 100vw;
+    height: 5px;
+    background-color: #85BDE0;
+}
+
+.icon {
+    position: fixed;
+    color: #C294C1;
+    font-size: 50px;
+    top: 70%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.icon:hover{
+    
+    font-size: 60px;
+}
+

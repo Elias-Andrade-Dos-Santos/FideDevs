@@ -246,17 +246,3 @@
 
 
 
-.icon{
-    position: fixed;
-    color: #C294C1;
-    font-size: 50px;
-    top: 50%;
-    right: 5%;
-    cursor: pointer;
-}
-
-.icon:hover{
-    
-    font-size: 60px;
-}
-

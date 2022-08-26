@@ -7,6 +7,8 @@ import Js from '../img/svg/js.svg'
 import Php from "../img/svg/php-svgrepo-com.svg"
 import Mysql from "../img/svg/mysql-svgrepo-com.svg"
 import Mongo from "../img/svg/mongodb-svgrepo-com.svg"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 const carrosel = () => {
@@ -22,13 +24,9 @@ const carrosel = () => {
 
   return (
     <div>
-        <div>
-            <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-        </div>
+        
         <div className={styles.barTop}></div>
         <div className={styles.superContainer}>
-            
             <Slider {...settings} className={styles.container}>
             <div>
                 <img src={Nodejs} alt="" />

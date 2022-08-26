@@ -1,0 +1,25 @@
+[
+  {
+    "id": "94313731",
+    "name": "Desenvolvimento de aplicação mobile.",
+    "img": "src/img/svg/mobile.svg"
+  },
+  {
+    "id": "94313762",
+    "name": "Desenvolvimento de site ou aplicação web",
+    "img": "src/img/svg/mobile.svg"
+  },
+  { 
+    "id": "943137XQ",
+    "name": "Serviço 3",
+    "img": "src/img/svg/mobile.svg"
+    
+  },
+  { 
+    "id": "943137iQ",
+    "name": "Serviço 4",
+    "img": "src/img/svg/mobile.svg"
+    
+  }
+  
+]
